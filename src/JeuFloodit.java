@@ -6,9 +6,9 @@ import java.util.*;
  */
 public class JeuFloodit {
 
-    public static final int MAX_TOURS = 15;
+    public static final int MAX_TOURS = 30;
     public int nbCoups = MAX_TOURS;
-    public static final int TAILLE_GRILLE = 5;
+    public static final int TAILLE_GRILLE = 12;
 
     private Cellule grille [][];
     private HashSet<Cellule> riviereGrille;

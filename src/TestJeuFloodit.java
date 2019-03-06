@@ -24,6 +24,12 @@ public class TestJeuFloodit {
             }
         }
 
+        if(jeuFloodit.verifier()){
+          System.out.println("VOUS AVEZ GAGNÉ LA PARTIE !");
+        }else{
+          System.out.println(" *_* VOUS AVEZ PERDU  *_* ");
+        }
+
         // System.out.println(jeuFloodit.listVoisin(2,2).toString());
         /*jeuFloodit.colorer(5);
         jeuFloodit.TracerGrille();
